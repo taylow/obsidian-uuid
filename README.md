@@ -2,6 +2,14 @@
 
 A simple Obsidian plugin for generating v4 UUIDs.
 
+## Usage
+
+Simply open the command pallet and search for UUID with your cursor at a specific position within your notes.
+
+Run the command and a UUIDv4 string will be generated in place.
+
+(Optional) Enable repeat UUID to be able to repeat the last generated UUID in other places.
+
 ## Releasing new releases
 
 - Update `manifest.json` with the new version number, such as `1.0.1`, and the minimum Obsidian version required for the latest release.
