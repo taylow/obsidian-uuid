@@ -3,7 +3,7 @@
 	"name": "UUID Generator",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "This lets you generate UUIDs within your notes.",
+	"description": "Generates UUIDv4 strings at the cursor within your notes.",
 	"author": "Taylor",
 	"authorUrl": "https://taylo.dev",
 	"fundingUrl": "https://taylo.dev",
