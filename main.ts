@@ -38,9 +38,6 @@ export default class UUIDGenerator extends Plugin {
 		this.addCommand({
 			id: "repeat-uuid-v4",
 			name: "Repeat UUID at Cursor",
-			editorCallback: (editor: Editor, view: MarkdownView) => {
-				editor.replaceSelection(this.lastUUID);
-			},
 			editorCheckCallback: (
 				checking: boolean,
 				editor: Editor,
