@@ -48,7 +48,7 @@ export default class UUIDGenerator extends Plugin {
 				}
 
 				if (checking) {
-					return						this.settings.enableRepeat;
+					return this.settings.enableRepeat;
 				}
 
 				editor.replaceSelection(this.lastUUID);
