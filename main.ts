@@ -43,13 +43,12 @@ export default class UUIDGenerator extends Plugin {
 				editor: Editor,
 				ctx: MarkdownView | MarkdownFileInfo
 			): boolean | void => {
-				if (checking) {
-					return (
-						this.settings.enableRepeat &&
-						this.lastUUID !== undefined
-					);
-				} else if (this.lastUUID == undefined) {
+				if (this.lastUUID == undefined) {
 					return false;
+				}
+
+				if (checking) {
+					return						this.settings.enableRepeat;
 				}
 
 				editor.replaceSelection(this.lastUUID);
