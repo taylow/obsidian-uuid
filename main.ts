@@ -86,8 +86,6 @@ class UUIDGeneratorSettingTab extends PluginSettingTab {
 
 		containerEl.empty();
 
-		containerEl.createEl("h2", { text: "UUID Generator Settings" });
-
 		new Setting(containerEl)
 			.setName("Enable Repeat UUID at Cursor")
 			.setDesc(
